@@ -1,0 +1,16 @@
+[project]
+name = "mcpserver"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Wancheng Li", email = "wanchengli@gmail.com" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "mcp[cli]>=2.2.0",
+]
+
+[project.scripts]
+mcpserver = "mcpserver.__main__:main"
+
